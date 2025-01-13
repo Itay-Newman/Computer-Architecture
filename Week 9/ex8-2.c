@@ -3,13 +3,14 @@
 
 int main()
 {
-    CHAR buffer[2048] = { 0 };  // Initialize buffer
+    CHAR buffer[2048] = {0}; // Initialize buffer
     DWORD bytesRead;
     char wait;
 
     HANDLE file = CreateFileA("lol.txt", GENERIC_READ, 0, NULL, OPEN_EXISTING, 0, NULL);
 
-    if (file == INVALID_HANDLE_VALUE) {
+    if (file == INVALID_HANDLE_VALUE)
+    {
         printf("Error opening file\n");
         scanf("%c", &wait);
         return GetLastError();

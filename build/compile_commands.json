@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/Cyber_User/Documents/Magshimim/Computer-Architecture/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe   -g -o CMakeFiles\\architecture-week9.dir\\ex8-2.c.obj -c \"C:\\Users\\Cyber_User\\Documents\\Magshimim\\Computer-Architecture\\Week 9\\ex8-2.c\"",
+  "file": "C:/Users/Cyber_User/Documents/Magshimim/Computer-Architecture/Week 9/ex8-2.c",
+  "output": "CMakeFiles/architecture-week9.dir/ex8-2.c.obj"
+}
+]
